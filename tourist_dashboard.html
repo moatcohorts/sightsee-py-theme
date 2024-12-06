@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <title>Cohort 28 Class Project - We Love Adventures!</title>
+</head>
+<body>
+
+
+    <div class="container-fluid">
+     
+        <!--Navigation-->
+        <div class="row " id="top">
+            <div class="col mx-0 px-0 border-bottom border-light">
+                <nav class="navbar navbar-expand-lg menu">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="images/sight-see-logo.png" width="130">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                          </li>
+
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="search.html">Tourist Centers</a>
+                          </li>
+                        
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Register
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="register_tourist.html">As a Tourist</a></li>
+                              <li><a class="dropdown-item" href="register_center.html">As a center</a></li>
+                            
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                      <div><a href="login.html">Login</a></div>
+                      <div class="dropdown user-menu">
+                        <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img src="images/guide-1.jpg" width="30" style="border-radius: 50%;"> Hi Ebunoluwa
+                        </a>
+                      
+                        <ul class="dropdown-menu user-profile" style="border-radius: 0px;background-color: rgb(81, 53, 90);">
+                          <li><a class="dropdown-item" href="center_dashboard.html">Profile</a></li>
+                          <li><a class="dropdown-item" href="center_dashboard.html">Change Password</a></li>
+                          <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                      </div>
+
+                      <div style="width:3%"></div>
+
+                    </div>
+                </nav>
+
+
+                <!--Logged in Link-->
+                
+                <!-- End Logged in link-->
+            </div>
+        </div>
+<!--end navigation-->
+<!-- search banner-->
+ 
+ <!-- end search banner-->
+  <!-- about-->
+
+<div class="row">
+
+<div class="col-md-3">
+      
+    <div class="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary" style="width: 280px; min-height: 400px;">
+        <ul class="nav nav-pills flex-column mb-auto">
+          
+          <li>
+            <a href="tourist_dashboard.html" class="nav-link link-body-emphasis active">
+                <i class="fa fa-dashboard"></i>
+              Dashboard
+            </a>
+          </li>
+          <li>
+            <a href="center_profile.html" class="nav-link link-body-emphasis">
+                <i class="fa fa-edit"></i>
+              Profile
+            </a>
+          </li>
+          <li>
+            <a href="tourist_booking.html" class="nav-link link-body-emphasis">
+             <i class="fa fa-users"></i>
+              Bookings
+            </a>
+          </li>
+          <li>
+            <a href="" class="nav-link link-body-emphasis">
+             <i class="fa fa-notes-medical"></i>
+              My Reviews
+            </a>
+          </li>
+        
+         
+       
+          
+          <li>
+            <a href="#" class="nav-link link-body-emphasis">
+                <i class="fa fa-power-off"></i>
+              Logout
+            </a>
+          </li>
+        </ul>
+     
+      </div>
+</div>
+<div class="col-md-9 p-3">
+    <!-- For the Dashboard-->
+     
+    <div class="row">
+        <div class="col-md-12">
+            <h5 class="my-3">Welcome Ebunoluwa!</h5>
+            <p>You are logged in, plesae make use of the side menu to carry out tasks on this platform, you can sign out when you are done.</p>
+         
+        </div>
+    </div>
+    <!-- End the Dashboard-->
+     <!-- Profile-->
+    <div class="row">
+        <div class="col-md-12 my-3">
+            <h5 class="my-3">Profile Update </h5>
+    <form>
+        <div class="row mb-3">
+            
+          <label for="fname" class="col-sm-2 col-form-label">First Name</label>
+          <div class="col-sm-4">
+            <input type="text" name="fname" class="form-control noround border-dark" id="fname">
+          </div>
+          <label for="lname" class="col-sm-2 col-form-label">Last Name</label>
+          <div class="col-sm-4">
+            <input type="text" name="lname" class="form-control noround border-dark" id="lname">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="phone" class="col-sm-2 col-form-label">Phone Number</label>
+          <div class="col-sm-4">
+            <input type="text" name="phone" class="form-control noround border-dark" id="phone">
+          </div>
+          <label for="gender" class="col-sm-2 col-form-label">Gender</label>
+          <div class="col-sm-4">
+              <select class="form-select noround border-dark" aria-label="Default select example" name="gender" id="gender">
+                  <option selected>Please Select</option>
+                  <option value="1">Female</option>
+                  <option value="2">Male</option> 
+                </select>
+          </div>
+           
+          </div>
+       
+          <div class="row mb-3">
+           
+            <label for="intro" class="col-sm-2 col-form-label">Your Intro</label>
+            <div class="col-sm-10">
+                <textarea id="intro" name="intro" class="form-control border-dark noround"></textarea>
+            </div>
+          </div>
+       
+     
+        <div class="row mb-3">
+            
+            <div class="col-sm-12 text-center">
+                <button type="submit" class="btn custom-btn col-6 noround">Update Account</button>
+            </div>
+          </div>
+       
+       
+      </form>
+
+ 
+        </div>
+    </div>
+    <!-- End profile-->
+
+
+    <!-- My bookings-->
+
+ <div class="row">
+    <div class="col-md-12">
+        
+        <h5 class="my-3">Bookings    </h5>
+        <table class="table table-striped table-sm">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Date Booked</th>
+                <th scope="col">CenterName</th>
+                <th scope="col">Ticket No</th>                
+                <th scope="col">Status</th>
+                <th scope="col">Details</th>
+              </tr>
+            </thead>
+            <tbody>           
+             
+              <tr>
+                <td>1</td>
+                <td>10th June, 2024</td>
+                <td>Erin-Ijesha Water Falls</td>
+                <td>EIF/2024/0012</td>
+                <td><button class="btn btn-secondary btn-sm noround"><i class="fa fa-thumbs-down"></i> Expired </button></td>
+                <td><a href="#">Details</a> ¦ <a href="#">Review</a></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>12th June, 2024</td>
+                <td>Micoln Golf Course</td>
+                <td>MGC/2024/01</td>
+                <td><button class="btn btn-success btn-sm noround"><i class="fa fa-thumbs-up"></i> Active</button></td>
+                <td><a href="#">Details</a> ¦ <a href="#">Review</a></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>13th June, 2024</td>
+                <td>Zuma Rock</td>
+                <td>ZR/2024/120</td>
+                <td><button class="btn btn-secondary btn-sm noround"><i class="fa fa-thumbs-down"></i> Expired</button></td>
+                <td><a href="#">Details</a> ¦ <a href="#">Review</a> </td>
+              </tr>
+             
+            </tbody>
+        </table>
+    </div>
+</div>
+
+    <!-- end bookings -->
+
+     
+    
+</div>
+</div>
+  <!-- end about-->
+  
+  
+  
+ 
+ <!--Local 3rd Party-->
+ <!--section title-->
+ 
+<!-- end section title-->
+
+ 
+<!-- end Local 3rd Party-->
+ 
+<div class="row bg-dark text-white">
+  <div class="col">
+    <p class="text-center my-3"> &copy; 2024 Developed By Me</p>
+  </div>
+</div>
+
+      </div>
+      <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.7.1.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $(window).scroll(function(){
+            if($(window).scrollTop()>0){
+              $("nav").css("background-color","rgba(81, 53, 90,0.4)");
+              $('.user-menu').css("background-color","transparent");
+            }else{
+             $("nav").css("background-color","rgb(81, 53, 90)");
+            }
+          })
+
+
+        });
+      </script>
+</body>
+</html>
